@@ -41,20 +41,23 @@ const styles = StyleSheet.create({
   },
 
   steps: {
+    fontFamily: 'RobotoCondensed-Light',
     textAlign: "left",
     fontSize: 14,
   },
 
   stepTitle: {
+    fontFamily: 'RobotoCondensed-Bold',
     textAlign: "center",
-    fontWeight: "bold",
+    fontSize: 16,
   },
 
   input: {
     width: 200,
     padding: 6,
-    fontSize: 20,
-
     backgroundColor: "#ff77",
+
+    fontFamily: 'RobotoCondensed-Regular',
+    fontSize: 20,
   },
 });
