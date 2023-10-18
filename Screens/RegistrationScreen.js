@@ -30,10 +30,10 @@ export const RegistrationScreen = () => {
 const styles = StyleSheet.create({
   // height: Platform.OS === "ios" ? 50 : 100,
   formContainer: {
-    flex: 1,
-    backgroundColor: "#fff",
+    display: 'flex',
     alignItems: "center",
     justifyContent: "center",
+    backgroundColor: '#ffe4e1',
   },
 
   inputContainer: {

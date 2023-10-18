@@ -3,6 +3,7 @@ import { StyleSheet, View } from "react-native";
 import { useFonts } from "expo-font";
 
 import { RegistrationScreen } from "./Screens/RegistrationScreen.js";
+import { ListExampleScreen } from "./Screens/ListExampleScreen.js";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -21,6 +22,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <RegistrationScreen />
+      {/* <ListExampleScreen /> */}
       <StatusBar style="auto" />
     </View>
   );
@@ -29,8 +31,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
+    backgroundColor: '#fdf5e6',
   },
 });
